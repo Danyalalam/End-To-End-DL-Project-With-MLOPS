@@ -162,3 +162,8 @@ cython_debug/
 #.idea/
 
 artifacts/*
+
+mlruns/*
+
+dvc.lock/*
+.dvcignore/*

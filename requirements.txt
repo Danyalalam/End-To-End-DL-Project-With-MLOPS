@@ -15,6 +15,7 @@ joblib
 types-PyYAML
 pyarrow
 scipy
+dagshub
 Flask
 Flask-Cors
 -e .
