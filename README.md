@@ -1,23 +1,24 @@
-# **Chest Cancer Classification using Deep Learning and MLOps**
+# **Chest Cancer Classification Using Deep Learning with MLOps**
 
-![Chest Cancer Classification](https://via.placeholder.com/1000x300?text=Chest+Cancer+Classification+using+Deep+Learning+and+MLOps)
+![Chest Cancer Classification](https://via.placeholder.com/1000x300?text=Chest+Cancer+Classification+Using+Deep+Learning+with+MLOps)
 
 ## **Overview**
 
-This project aims to classify chest cancer from X-ray images using deep learning techniques. It demonstrates an end-to-end workflow for deploying a machine learning model using MLOps tools and practices. The project incorporates model training, evaluation, and deployment using tools like **MLflow**, **DVC**, **BentoML**, and **Azure CI/CD pipelines**.
+This project focuses on the classification of chest cancer using deep learning techniques, particularly Convolutional Neural Networks (CNN). It provides a comprehensive pipeline from data ingestion to model deployment using MLOps practices with tools such as **MLflow**, **DVC**, and **Azure** CI/CD for deployment.
 
 ## **Key Features**
 
-- **Deep Learning Model**: Utilizes Convolutional Neural Networks (CNN) for accurate image classification.
-- **Data Version Control**: Efficient management of data versions using **DVC**.
-- **Experiment Tracking**: Models and their parameters are tracked using **MLflow**.
-- **Modular Code Structure**: Implements modular coding practices for scalability and maintainability.
-- **Model Serving and Deployment**: Uses **BentoML** for packaging and serving the model, deployed on **Azure** via **CI/CD pipelines**.
-- **Dockerized Application**: Containerization of the Flask app for a consistent and portable deployment environment.
+- **Deep Learning Model**: A CNN-based model for chest cancer classification using X-ray images.
+- **Modular Code Structure**: The project is organized in a modular fashion for better maintainability and scalability.
+- **Data Ingestion and Processing**: Efficient data handling using Python scripts for data ingestion and preprocessing.
+- **Experiment Tracking**: **MLflow** is used for tracking experiments, logging model parameters, metrics, and artifacts.
+- **Model Versioning and Data Management**: **DVC** is implemented for model versioning and handling large datasets.
+- **Model Deployment**: The model is deployed as a REST API using a Flask web application.
+- **CI/CD with GitHub Actions**: The entire application is dockerized and deployed on **Azure** using a CI/CD pipeline configured via GitHub Actions.
 
-## **Project Architecture**
+## **Project Structure**
 
-Below is a simplified overview of the project structure:
+Below is the simplified project structure:
 
 ```bash
 ├── artifacts/
