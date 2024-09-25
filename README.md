@@ -1,6 +1,7 @@
 # **Chest Cancer Classification Using Deep Learning with MLOps**
 
-![Chest Cancer Classification](https://via.placeholder.com/1000x300?text=Chest+Cancer+Classification+Using+Deep+Learning+with+MLOps)
+![linkd](https://github.com/user-attachments/assets/90667d21-ef00-4ae8-a915-f727accccdbf)
+
 
 ## **Overview**
 
